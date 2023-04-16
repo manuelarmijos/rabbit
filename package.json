@@ -1,0 +1,28 @@
+{
+  "name": "solicitudes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.7.0",
+    "express-session": "^1.17.3",
+    "express-winston": "^4.2.0",
+    "helmet": "^6.0.1",
+    "http-proxy-middleware": "^2.0.6",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "response-time": "^2.3.2",
+    "winston": "^3.8.2"
+  }
+}
