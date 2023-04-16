@@ -79,7 +79,7 @@ app.use(
 );
 
 
-amqp.connect('amqp://127.0.0.1', function (error0, connection) {
+amqp.connect('amqp://admin:admin@127.0.0.1:5672', function (error0, connection) {
   if (error0) {
     console.log('ERROR NO SE PUDO CONECTARSE CON RABBIT')
     console.log(error0)
